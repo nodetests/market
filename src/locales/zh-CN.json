@@ -1,0 +1,38 @@
+{
+    "selectLanguage":"選擇語言",
+    "linkWallet": "連接錢包",
+    "filterTool":"搜索欄",
+    "clearFilter":"清除",
+    "Heros":"英雄",
+    "Equip":"裝備",
+    "Material":"材料",
+    "RankingList":"排行榜",
+
+    "Home":"首頁",
+    "PlayGame":"遊戲",
+    "MarketPlace":"商城",
+    "Staking":"召喚",
+    "WihtePages":"白名單",
+
+    "market":"交易市場",
+    "myNft":"我的NFT",
+    "mySell":"我的出售",
+    "myHistory":"我的記錄",
+
+    "materialMarket":"材料市場",
+    "myMaterial":"我的材料",
+  
+    "equipMarket":"裝備市場",
+    "myEquip":"我的裝備",
+
+  
+    "historyNFT":"NFT",
+    "historyQuality":"品质",
+    "historyPrice":"价格",
+    "historySeller":"From",
+    "historyBuyer":"To",
+    "historyTime":"時間",
+    "historyTypeBuy":"購入",
+    "historyTypeSell":"賣出",
+    "historyAmount":"數量"
+}

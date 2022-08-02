@@ -1,0 +1,77 @@
+.rankContain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.rankContain ::-webkit-scrollbar{
+    display: none;
+}
+.rankContent{
+    width: 90%;
+    height: 100%;
+    .rankHeader{
+        width: 100%;
+        height: 4rem;
+        margin-top: 2rem;
+        .markTypeItem{
+            width: 15%;
+            height: 2rem;
+            font-size: 1.1rem;
+            line-height: 2rem;
+            margin-left: 2%;
+            font-weight: normal;
+            cursor: pointer;
+            border: 1px solid #393b67;
+            color: #85b6ff;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .markTypeItemActive{
+            background-color: #393b67;
+            color: #fff;
+        }
+        .markTypeItem:nth-child(1){
+            margin-left: 0;
+        }
+    }
+    .tableContent{
+        width: 100%;
+        height: 100%;
+    }
+    .tableContent :global(.ant-table-thead > tr > th){
+        text-align: center !important;
+    }
+    .rowNft{
+        height:3rem;
+        display: flex;
+        justify-content: space-around;
+         // justify-content: flex-start;
+        img{
+            max-width: 25%;
+            max-height: 3rem;
+        }
+        // div{
+        //     margin-left: 1rem;
+        // }
+    }
+    .qualityContain{
+        height:2rem; 
+        img{
+            max-width: 25%;
+            max-height: 2rem;
+        }
+    }
+  
+}
+.columnHead{
+    text-align: center !important;
+}
+
+@media screen and (max-width:1200px) {
+    .markTypeItem{
+        width: 25% !important;
+        font-size: 0.5rem !important;
+    }
+}

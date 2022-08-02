@@ -1,0 +1,342 @@
+.nftContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContion {
+    width: 1200px;
+    height: 100%;
+}
+
+.gridContain {
+    max-width: 1200px;
+    display: grid;
+    -webkit-display: grid;
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: auto;
+
+    @media screen and (min-width: 1800px) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1800px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (min-width: 200px) and (max-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.nftCard {
+    max-width: 260px;
+    // max-height: 360px;
+    font-size: 0.5rem;
+    // border: 1px solid #07372d;
+    cursor: pointer;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .nftHeader {
+        width: 100%;
+        background-size: 106px 134px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nftHeader:after {
+        content: "";
+        display: block;
+        padding-top: 80%;
+    }
+
+    .nftFooter {
+        width: 100%;
+        min-height: 66px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nftFooterContent {
+        width: 80%;
+        height: 100%;
+        @media screen and (max-width: 800px) {
+            width: 96%;
+        }
+    }
+
+    .BurOrSellNum {
+        width: 100%;
+        height: 30px;
+        background-color: #2f1069;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .BurOrSellNumText {
+            display: inline-block;
+            text-align: center;
+            color: #e5ccff;
+            border-radius: 15px;
+            font-size: 16px;
+
+            @media screen and (min-width: 800px) and (max-width: 1200px) {
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 12px;
+            }
+
+        }
+
+        .BurOrSellNumNum {
+            display: inline-block;
+            text-align: center;
+            font-size: 20px;
+            color: #fff1c7;
+
+            @media screen and (min-width: 800px) and (max-width: 1200px) {
+                font-size: 18px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .nftPrice {
+        width: 100%;
+        height: 30px;
+        background-color: #2f1069;
+        border-radius: 15px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 6px;
+        @media screen and (min-width: 800px) and (max-width: 1200px) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 800px) {
+            font-size: 12px;
+        }
+        img {
+            max-width: 30%;
+            max-height: 16px;
+        }
+        span {
+            display: inline-block;
+            margin-left: 0.2rem;
+        }
+        .priceNum {
+            font-size: 20px;
+            color: #fff1c7;
+
+            @media screen and (min-width: 800px) and (max-width: 1200px) {
+                font-size: 18px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 16px;
+            }
+        }
+
+        .priceText {
+            font-size: 16px;
+
+            @media screen and (min-width: 800px) and (max-width: 1200px) {
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 12px;
+            }
+        }
+
+      
+    }
+    .abstract{
+        font-size: 16px;
+        margin: 6px 0;
+        text-align: center;
+        @media screen and (min-width: 800px) and (max-width: 1200px) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 800px) {
+            font-size: 12px;
+        }
+
+    }
+    .nftCardBottom {
+        width: 100%;
+        min-height: 40px;
+        background: url('../../../../asset/img/markPlace/price_frame.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        z-index: 999999;
+        overflow: hidden;
+    }
+}
+
+
+.sellContian :global(.ant-modal-body) {
+    padding: 0;
+}
+
+.sellContian {
+    min-height: 500px;
+}
+
+.myNft {
+    font-family: 'primaryText';
+    background: #151742;
+    font-size: 1rem;
+
+    .myNftTop {
+        height: 4rem;
+        background: url('../../../../asset/img/markPlace/frame_01.png') no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myNftBottom {
+        width: 100%;
+        padding: 1rem;
+
+        .myNftBottomContent {
+            width: 100%;
+            height: 100%;
+            border: 1px solid rgba(133, 182, 255, 0.2);
+            display: flex;
+            justify-content: flex-start;
+        }
+
+    }
+
+    .myNftLeft {
+        width: 50%;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+    .myNftLeft>div{
+        width: 100%;
+        height: 100%;
+    }
+
+    .myNftRight {
+        width: 50%;
+        min-height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .myNftRightContain {
+            width: 100%;
+        }
+
+        .floorLine {
+            border-bottom: 1px solid #85b6ff;
+            opacity: 0.3;
+        }
+
+        .buyTitle {
+            width: 100%;
+            font-size: 16px;
+            color: #ccc;
+            text-align: center;
+            margin-bottom: 6;
+
+            @media screen and (min-width:800px) and (max-width: 1200px) {
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 12px;
+            }
+        }
+
+        .buyNum {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .text {
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem
+        }
+
+        .price {
+
+            height: 4rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #101329;
+            margin-top: 1rem;
+
+            img {
+                max-height: 1.5rem;
+                max-width: 1.5rem;
+            }
+        }
+
+        .sureSell {
+            width: 100%;
+            font-size: 1.5rem;
+            color: #5a2a0a;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            margin-top: 2rem;
+
+            div {
+                width: 10rem;
+                height: 3rem;
+                text-align: center;
+                line-height: 3rem;
+                background: #f6d84b;
+            }
+        }
+
+        .changeStep {
+            min-width: 45px;
+            text-align: center;
+            background-color: #f6d84b;
+            color: #5a2a0a;
+            letter-spacing: -2px;
+            font-size: 23px;
+            cursor: pointer;
+            @media screen and (min-width:800px) and (max-width: 1200px) {
+                font-size: 19px;
+                min-width: 30px;
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 15px;
+                min-width: 25px;
+            }
+        }
+    }
+}

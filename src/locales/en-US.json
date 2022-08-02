@@ -1,0 +1,38 @@
+{   
+    "selectLanguage":"Select the language",
+    "linkWallet": "Connect wallet",
+    "filterTool":"Filter tools",
+    "clearFilter":"Clear Filter",
+    "Heros":"Heros",
+    "Equip":"Equip",
+    "Material":"Materail",
+    "RankingList":"Ranking List",
+    
+    "Home":"Home",
+    "PlayGame":"PlayGame",
+    "MarketPlace":"MarketPlace",
+    "Staking":"Staking",
+    "WihtePages":"WihtePages",
+
+    "market":"Market",
+    "myNft":"MyNft",
+    "mySell":"MySell",
+    "myHistory":"MyHistory",
+
+    "materialMarket":"Market",
+    "myMaterial":"myMaterial",
+  
+
+    "equipMarket":"equipMarket",
+    "myEquip":"myEquip",
+
+    "historySeller":"From",
+    "historyNFT":"NFT",
+    "historyQuality":"Quality",
+    "historyPrice":"Price",
+    "historyBuyer":"To",
+    "historyTime":"Time",
+    "historyTypeBuy":"Buy",
+    "historyTypeSell":"Sell",
+    "historyAmount":"Num"
+}

@@ -1,0 +1,108 @@
+.equipContain{
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 180px);
+    display: flex;
+    justify-content: flex-start;
+}
+.fiterContain{
+    width: 23%;
+    height: 100%;
+
+}
+.mainContent{
+    width: 77%;
+    height: 100%;
+    padding: 12px;
+    min-height: calc(100vh - 180px);
+    background-color: #151742;
+    .mainContainTop{
+        width: 100%;
+        margin: 1% 0 1% 0%;
+        .markTypeItem{
+            width: 15%;
+            height: 2rem;
+            font-size: 1.1rem;
+            line-height: 2rem;
+            margin-left: 2%;
+            font-weight: normal;
+            cursor: pointer;
+            border: 1px solid #393b67;
+            color: #85b6ff;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .markTypeItemActive{
+            background-color: #393b67;
+            color: #fff;
+        }
+        .markTypeItem:nth-child(1){
+            margin-left: 0;
+        }
+        .contentItem{
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+        .contentItem:hover{
+            opacity: 0.95;
+            transform: scale(0.95);
+        }
+    }
+    .mainContainBottom{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width:1200px) {
+    .filterContain{
+        .openIcon{
+            width: 1rem;
+            height: 1rem;
+            position: fixed;
+            top: 50%;
+            left: 2%;
+        }
+    }
+    .mainContent{
+        width: 90%;
+        .mainContainTop{
+            width: 100%;
+            height: 4%;
+            margin: 1% 0 1% 2%;
+            font-size: 0.5rem;
+            .markTypeItem{
+                font-size: 0.5rem;
+                width: 33%;
+                height: 2rem;
+                line-height: 2rem;
+                margin-left: 2%;
+                font-weight: normal;
+                cursor: pointer;
+                border: 1px solid #393b67;
+                color: #85b6ff;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+        .imgContainBottom{
+            width: 100%;
+            height: 92%;
+            .nftCardContain{
+                width: 100%;
+                height: 100%;
+            }
+            .nftContent{
+                display: flex;
+                flex-wrap: wrap;
+                .nftItem{
+                    width: 260px; 
+                    margin-left: 2%;
+                    margin-bottom: 60px;
+                    // overflow: hidden;
+                }
+            }
+           
+           
+        }
+    }
+ }

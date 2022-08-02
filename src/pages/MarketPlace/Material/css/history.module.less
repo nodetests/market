@@ -1,0 +1,70 @@
+.historyContain {
+  width: 100%;
+  height: 100%;
+}
+
+.historyContain ::-webkit-scrollbar {
+  display: none;
+
+}
+
+.historyContent{
+  display: flex;
+  justify-content: center;
+}
+
+.historyContent :global(.ant-table-thead > tr > th) {
+  text-align: center !important;
+}
+.historyContent :global(.ant-table .ant-table-cell) {
+  background-color: #151742;
+}
+.historyContent :global(.ant-table-cell-row-hover) {
+  background-color: #151742 !important;
+}
+// 公共
+.pubLiccolumnHead {
+    text-align: center !important;
+}
+.publicColumnId {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    @media screen and(max-width: 1200px) {
+      width: 80px;
+    }
+    @media screen and(max-width: 500px) {
+      width: 40px;
+    }
+}  
+
+.rowNft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .rowId{
+  max-width: 80%;
+  }
+  img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+}
+
+.imgNft{
+    img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+}
+
+.amountContain {
+  height: 2rem;
+
+  img {
+    max-width: 25%;
+    max-height: 2rem;
+  }
+}

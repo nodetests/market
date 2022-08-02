@@ -1,0 +1,481 @@
+.detailContain{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .back{
+        width: 100%;
+        height: 16%;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 4%;
+        padding-top: 2%;
+        cursor: pointer;
+        @media screen and (min-width:500px) and(max-width:1200px) {
+            font-size: 16px;
+        }
+        @media screen and(max-width:500px) {
+            font-size: 14px;
+        }
+    }
+   
+    .detailContent{
+        width: 100%;
+        height: 55%;
+        display: flex;
+        justify-content: flex-start
+    
+    }
+    .detailLeft{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .detailImgContent{
+            width: 80%;
+            height: 95%;
+            .detailImgContentContain{
+                width: 100%;
+                height: 100%; 
+            }
+            .detailImgItem{
+                width: 100%;
+                height: 100%;
+              
+            }
+            .nftHeader {
+                max-width: 100%;
+                max-height: 100%;
+                background-size: 260px 260px;
+                background-repeat: no-repeat;
+                background-position: center bottom;
+            }
+            .nftHeader::before {
+                content: "";
+                display: block;
+                padding-top: 100%;
+            }
+           
+        }
+        @media screen and (max-width:1200px) and (min-width500px) {
+            .detailImgContent{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .detailImgContentContain{
+                    width: 100%;
+                    height: 80%;
+                }
+                .detailImgItem{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .nftHeader {
+                    width: 260px;
+                    height: 260px;
+                    background-size: 100% 100%;
+                    background-repeat:no-repeat;
+                    background-origin:content-box;
+                }
+            
+                .nftHeader:after {
+                    content: "";
+                    display: block;
+                    padding-top: 100%;
+                }
+                .detailImg{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        max-width: 100%;
+                        max-height: 100%; 
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:500px) {
+            .detailImgContent{
+                width: 100%;
+                height: 100%;
+                .detailImgItem{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .nftHeader {
+                    width: 130px;
+                    height: 130px;
+                    background-size: 100% 100%;
+                    background-repeat:no-repeat;
+                    background-origin:content-box;
+                }
+            
+                .nftHeader:after {
+                    content: "";
+                    display: block;
+                    padding-top: 100%;
+                }
+                .detailImg{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        max-width: 180px;
+                        max-height: 100%; 
+                    }
+                }
+            }
+        }
+      
+    }
+   
+    .detailRight{
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        font-size: 16px;
+        .floor1{
+            max-width: 100%;
+            min-width: 60%;
+            min-height: 50px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            img{
+                max-height: 50px;
+            }
+            .nftId{
+                font-size: 32px;
+                @media screen and (max-width:1200px) and (min-width500px) {
+                    font-size: 26px;
+               }
+               @media screen and (max-width:500px) {
+                font-size: 28px;
+               } 
+            }
+            .nftLv{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                padding-top: 4px;
+                .nftLvContain{
+                    width: 76%;
+                    display: flex;
+                    justify-content: space-around;
+                    @media screen and(max-width:500px) {
+                        width: 90%;
+                    }
+                    @media screen and(min-width:500px) and(max-width:1200px) {
+                        width: 90%;
+                    }
+                }
+                .nftLvText{
+                    width: 20%;
+                    height: 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    .nftLvTextLeft{
+                        font-size: 18px;
+                        @media screen and(max-width:500px) {
+                            font-size: 14px;
+                        }
+                        @media screen and(min-width:500px) and(max-width:1200px) {
+                            font-size: 12px;
+                        }
+                    }
+                    .nftLvTextRight{
+                        font-size: 26px;
+                        @media screen and(max-width:500px) {
+                            font-size: 20px;
+                        }
+                        @media screen and(min-width:500px) and(max-width:1200px) {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .nftLvProcess{
+                    width: 80%;
+                }
+                .nftLvProcess :global(.ant-progress-inner){
+                    width: 90%;
+                    border-radius: 0;
+                    background-color:#333333
+                }
+                .nftLvProcess :global(.ant-progress-success-bg){
+                    border-radius: 0;
+                }
+                .nftLvProcess :global(.ant-progress-bg){
+                  border-radius: 0;
+                }
+               
+               
+            }
+            .nftLv :global(.ant-progress-text){
+                font-size: 17px;
+            }
+            .nftLv :global(.ant-progress-outer){
+                width: 80%;
+            }
+        }
+        .floor2{
+            max-width: 100%;
+            min-width: 80%;
+            .floor2Contain{
+                .nftAttribute{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 8px;
+                    font-size: 22px;
+                  
+                    .nftAttributeItem{
+                        width: 50%;
+                        img{
+                            max-width:22px;
+                            max-height: 22px;
+                        }
+                    }
+                 
+                }
+                @media screen and (max-width:1200px) and (min-width500px) {
+                     .nftAttribute{
+                         font-size: 18px;
+                         .nftAttributeItem{
+                            width: 50%;
+                            img{
+                                max-width:18px;
+                                max-height: 18px;
+                            }
+                        }
+                     }  
+                }
+                @media screen and (max-width:500px) {
+                    .nftAttribute{
+                        font-size: 14px;
+                        .nftAttributeItem{
+                            width: 50%;
+                            img{
+                                max-width:14px;
+                                max-height: 14px;
+                            }
+                        }
+                    }  
+                   
+                } 
+            }
+          
+        }
+        .floor3{
+            width: 100%;
+            margin-top:24px;
+            .floor3Item{
+                display: flex;
+                justify-content: flex-start;
+                margin-top:24px;
+            }
+            .floor3ItemImg{
+                display: flex;
+                align-items: center;
+                img{
+                    max-width: 60px;
+                    max-height: 60px;
+                }
+            }
+            .floor3ItemText{
+                width: 80%;
+                padding-left: 24px;
+                .floor3ItemSkill{
+                    // display: inline-block;
+                    // width: 230px;
+                    height: 25px;
+                    font-size: 20px;
+                    line-height: 25px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    letter-spacing: -1px;
+                    color: #ff6666;
+                }
+                .floor3ItemAbstruct{
+                    display: inline-block;
+                    height: 18px;
+                    line-height: 18px;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    letter-spacing: 0px;
+                    color: #e6e6e6;
+                    margin-top: 12px;
+                }
+            }
+            @media screen and (max-width:1200px) and (min-width500px) {
+                .floor3ItemImg{
+                    img{
+                        max-width: 60px;
+                        max-height: 60px;
+                    }
+                }
+                .floor3ItemText{
+                    width: 80%;
+                    padding-left: 12px;
+                    .floor3ItemSkill{
+                        height: 25px;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        letter-spacing: -1px;
+                        color: #ff6666;
+                    }
+                    .floor3ItemAbstruct{
+                        height: 18px;
+                        line-height: 16px;
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        letter-spacing: 0px;
+                        color: #e6e6e6;
+                        margin-top: 8px;
+                    }
+                }
+            }
+            @media screen and (max-width:500px) {
+                .floor3ItemImg{
+                    img{
+                        max-width: 60px;
+                        max-height: 60px;
+                    }
+                }
+                .floor3ItemText{
+                    width: 80%;
+                    padding-left: 2px;
+                    .floor3ItemSkill{
+                        // display: inline-block;
+                        height: 25px;
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        letter-spacing: -1px;
+                        color: #ff6666;
+                    }
+                    .floor3ItemAbstruct{
+                        // display: inline-block;
+                        height: 18px;
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        letter-spacing: 0px;
+                        color: #e6e6e6;
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .detailBottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .detailBottomLeft{
+            width: 50%;
+            height: 181px;
+            .detailImg{
+                img{
+                    max-width: 80%;
+                    max-height: 153px; 
+                }
+            }
+        }
+        .detailBottomRight{
+            width: 50%;
+            min-height: 60px;
+            display:flex;
+            justify-content:flex-start;
+            .buyRightPrice{
+                max-width: 50%;
+                min-width: 36%;
+                min-height: 60px;
+                background: #21053c;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                font-size: 28px;
+                img{
+                    max-width: 28px;
+                    max-height: 28px;
+                    margin-right: 12px;
+                    margin-top: 2px;
+                }
+                @media screen and (min-width:500px) and (max-width:1300px) {
+                    font-size: 22px;
+                    img{
+                        max-width: 22px;
+                        max-height: 22px;
+                    }
+                }
+                @media screen and (max-width:500px) {
+                    font-size: 16px;
+                    img{
+                        max-width: 16px;
+                        max-height: 16px;
+                    }
+                }
+                
+            }
+            .buyRightButton{
+                max-width: 50%;
+                min-width: 28%;
+                min-height: 60px;
+                display: flex;
+                align-items: center;
+                .buyText{
+                    width: 100%;
+                    min-height: 60px;
+                    background:#f6d84b;
+                    color: #5a2a0a;
+                    font-size: 30px;
+                    @media screen and (min-width:500px) and (max-width:1300px) {
+                        font-size: 24px;
+                     
+                    }
+                    @media screen and (max-width:500px) {
+                        font-size: 18px;
+                    }
+                }
+            }
+          
+        }
+       
+       
+    }
+
+  
+}
+// 底部背景图片
+.detailContain_N{
+    background: url('../../asset/img/markPlace/bg_n.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+}
+.detailContain_R{
+    background: url('../../asset/img/markPlace/bg_r.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+}
+.detailContain_SR{
+    background: url('../../asset/img/markPlace/bg_sr.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+}
+
+.detailContain_SSR{
+    background: url('../../asset/img/markPlace/bg_ssr.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+}
+

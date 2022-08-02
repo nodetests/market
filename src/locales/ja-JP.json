@@ -1,0 +1,38 @@
+{   
+    "selectLanguage":"言葉を選ぶ",
+    "linkWallet": "接続ウォレット",
+    "filterTool":"検索バー",
+    "clearFilter":"除去",
+    "Heros":"英雄",
+    "Equip":"装備",
+    "Material":"材料",
+    "RankingList":"ランキング",
+    
+    "Home":"トップページ",
+    "PlayGame":"ゲーム",
+    "MarketPlace":"商",
+    "Staking":"召唤",
+    "WihtePages":"ホワイトリスト",
+
+    "market":"取引市場",
+    "myNft":"私のNFT",
+    "mySell":"私の売り",
+    "myHistory":"私の記録",
+     
+    "materialMarket":"材料市場",
+    "myMaterial":"私の資料",
+  
+    "equipMarket":"装備市場",
+    "myEquip":"私の装備",
+
+    "historyNFT":"NFT",
+    "historyQuality":"品质",
+    "historyPrice":"価格",
+    "historySeller":"From",
+    "historyBuyer":"To",
+    "historyTime":"時間",
+    "historyTypeBuy":"购入",
+    "historyTypeSell":"売れ",
+    "historyAmount":"数"
+
+}

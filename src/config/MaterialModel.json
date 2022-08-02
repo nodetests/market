@@ -1,0 +1,21 @@
+{
+    "desc":{
+        "Id":"#ID",
+        "intro":"简介",
+        "name":"名称",
+        "pic":"图片名"
+    },
+    "items":{
+        "210001":{
+            "Id":210001,
+            "intro":"升星石",
+            "name":"升星石",
+            "pic":"dj_10001"
+        }
+    },
+    "items_count":1,
+    "key":[
+        "Id"
+    ],
+    "name":"MaterialModel"
+}

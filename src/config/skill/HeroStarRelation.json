@@ -1,0 +1,1273 @@
+{
+    "desc": {
+        "heroModelId": "#ID",
+        "normalAttacckId": "普攻",
+        "skillFirstId": "技能1",
+        "skillFourthId": "技能4（0表示无技能）",
+        "skillSecondId": "技能2（0表示无技能）",
+        "skillThirdId": "技能3（0表示无技能）",
+        "star": "#星数"
+    },
+    "items": {
+        "12011101": {
+            "1": {
+                "heroModelId": 12011101,
+                "normalAttacckId": 1101001,
+                "skillFirstId": 1101011,
+                "skillFourthId": 0,
+                "skillSecondId": 0,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011201": {
+            "1": {
+                "heroModelId": 12011201,
+                "normalAttacckId": 1201001,
+                "skillFirstId": 1201011,
+                "skillFourthId": 0,
+                "skillSecondId": 1201021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011202": {
+            "1": {
+                "heroModelId": 12011202,
+                "normalAttacckId": 1202001,
+                "skillFirstId": 1202011,
+                "skillFourthId": 0,
+                "skillSecondId": 1202021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011301": {
+            "1": {
+                "heroModelId": 12011301,
+                "normalAttacckId": 1301001,
+                "skillFirstId": 1301011,
+                "skillFourthId": 0,
+                "skillSecondId": 1301021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011302": {
+            "1": {
+                "heroModelId": 12011302,
+                "normalAttacckId": 1302001,
+                "skillFirstId": 1302011,
+                "skillFourthId": 0,
+                "skillSecondId": 1302021,
+                "skillThirdId": 1302031,
+                "star": 1
+            }
+        },
+        "12011303": {
+            "1": {
+                "heroModelId": 12011303,
+                "normalAttacckId": 1303001,
+                "skillFirstId": 1303011,
+                "skillFourthId": 0,
+                "skillSecondId": 1303021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011304": {
+            "1": {
+                "heroModelId": 12011304,
+                "normalAttacckId": 1304001,
+                "skillFirstId": 1304011,
+                "skillFourthId": 0,
+                "skillSecondId": 1304021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12011305": {
+            "1": {
+                "heroModelId": 12011305,
+                "normalAttacckId": 1305001,
+                "skillFirstId": 1305011,
+                "skillFourthId": 0,
+                "skillSecondId": 1305021,
+                "skillThirdId": 1305031,
+                "star": 1
+            }
+        },
+        "12011401": {
+            "1": {
+                "heroModelId": 12011401,
+                "normalAttacckId": 1401001,
+                "skillFirstId": 1401011,
+                "skillFourthId": 0,
+                "skillSecondId": 1401021,
+                "skillThirdId": 1401031,
+                "star": 1
+            }
+        },
+        "12011402": {
+            "1": {
+                "heroModelId": 12011402,
+                "normalAttacckId": 1402001,
+                "skillFirstId": 1402011,
+                "skillFourthId": 0,
+                "skillSecondId": 1402021,
+                "skillThirdId": 1402031,
+                "star": 1
+            }
+        },
+        "12011403": {
+            "1": {
+                "heroModelId": 12011403,
+                "normalAttacckId": 1403001,
+                "skillFirstId": 1403011,
+                "skillFourthId": 0,
+                "skillSecondId": 1403021,
+                "skillThirdId": 1403031,
+                "star": 1
+            }
+        },
+        "12011404": {
+            "1": {
+                "heroModelId": 12011404,
+                "normalAttacckId": 1404001,
+                "skillFirstId": 1404011,
+                "skillFourthId": 0,
+                "skillSecondId": 1404021,
+                "skillThirdId": 1404031,
+                "star": 1
+            }
+        },
+        "12011405": {
+            "1": {
+                "heroModelId": 12011405,
+                "normalAttacckId": 1405001,
+                "skillFirstId": 1405011,
+                "skillFourthId": 0,
+                "skillSecondId": 1405021,
+                "skillThirdId": 1405031,
+                "star": 1
+            }
+        },
+        "12011501": {
+            "1": {
+                "heroModelId": 12011501,
+                "normalAttacckId": 1501001,
+                "skillFirstId": 1501011,
+                "skillFourthId": 1501041,
+                "skillSecondId": 1501021,
+                "skillThirdId": 1501031,
+                "star": 1
+            }
+        },
+        "12011502": {
+            "1": {
+                "heroModelId": 12011502,
+                "normalAttacckId": 1502001,
+                "skillFirstId": 1502011,
+                "skillFourthId": 1502041,
+                "skillSecondId": 1502021,
+                "skillThirdId": 1502031,
+                "star": 1
+            }
+        },
+        "12011503": {
+            "1": {
+                "heroModelId": 12011503,
+                "normalAttacckId": 1503001,
+                "skillFirstId": 1503011,
+                "skillFourthId": 1503041,
+                "skillSecondId": 1503021,
+                "skillThirdId": 1503031,
+                "star": 1
+            }
+        },
+        "12011504": {
+            "1": {
+                "heroModelId": 12011504,
+                "normalAttacckId": 1504001,
+                "skillFirstId": 1504011,
+                "skillFourthId": 1504041,
+                "skillSecondId": 1504021,
+                "skillThirdId": 1504031,
+                "star": 1
+            }
+        },
+        "12011505": {
+            "1": {
+                "heroModelId": 12011505,
+                "normalAttacckId": 1505001,
+                "skillFirstId": 1505011,
+                "skillFourthId": 1505041,
+                "skillSecondId": 1505021,
+                "skillThirdId": 1505031,
+                "star": 1
+            }
+        },
+        "12011506": {
+            "1": {
+                "heroModelId": 12011506,
+                "normalAttacckId": 1506001,
+                "skillFirstId": 1506011,
+                "skillFourthId": 0,
+                "skillSecondId": 1506021,
+                "skillThirdId": 1506031,
+                "star": 1
+            }
+        },
+        "12011507": {
+            "1": {
+                "heroModelId": 12011507,
+                "normalAttacckId": 1507001,
+                "skillFirstId": 1507011,
+                "skillFourthId": 1507041,
+                "skillSecondId": 1507021,
+                "skillThirdId": 1507031,
+                "star": 1
+            }
+        },
+        "12011508": {
+            "1": {
+                "heroModelId": 12011508,
+                "normalAttacckId": 1508001,
+                "skillFirstId": 1508011,
+                "skillFourthId": 0,
+                "skillSecondId": 1508021,
+                "skillThirdId": 1508031,
+                "star": 1
+            }
+        },
+        "12011509": {
+            "1": {
+                "heroModelId": 12011509,
+                "normalAttacckId": 1509001,
+                "skillFirstId": 1509011,
+                "skillFourthId": 0,
+                "skillSecondId": 1509021,
+                "skillThirdId": 1509031,
+                "star": 1
+            }
+        },
+        "12011510": {
+            "1": {
+                "heroModelId": 12011510,
+                "normalAttacckId": 1510001,
+                "skillFirstId": 1510011,
+                "skillFourthId": 1510041,
+                "skillSecondId": 1510021,
+                "skillThirdId": 1510031,
+                "star": 1
+            }
+        },
+        "12011511": {
+            "1": {
+                "heroModelId": 12011511,
+                "normalAttacckId": 1511001,
+                "skillFirstId": 1511011,
+                "skillFourthId": 1511041,
+                "skillSecondId": 1511021,
+                "skillThirdId": 1511031,
+                "star": 1
+            }
+        },
+        "12011599": {
+            "1": {
+                "heroModelId": 12011599,
+                "normalAttacckId": 1599001,
+                "skillFirstId": 1599011,
+                "skillFourthId": 1599041,
+                "skillSecondId": 1599021,
+                "skillThirdId": 1599031,
+                "star": 1
+            }
+        },
+        "12012101": {
+            "1": {
+                "heroModelId": 12012101,
+                "normalAttacckId": 2101001,
+                "skillFirstId": 2101011,
+                "skillFourthId": 0,
+                "skillSecondId": 0,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012201": {
+            "1": {
+                "heroModelId": 12012201,
+                "normalAttacckId": 2201001,
+                "skillFirstId": 2201011,
+                "skillFourthId": 0,
+                "skillSecondId": 2201021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012202": {
+            "1": {
+                "heroModelId": 12012202,
+                "normalAttacckId": 2202001,
+                "skillFirstId": 2202011,
+                "skillFourthId": 0,
+                "skillSecondId": 2202021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012301": {
+            "1": {
+                "heroModelId": 12012301,
+                "normalAttacckId": 2301001,
+                "skillFirstId": 2301011,
+                "skillFourthId": 0,
+                "skillSecondId": 2301021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012302": {
+            "1": {
+                "heroModelId": 12012302,
+                "normalAttacckId": 2302001,
+                "skillFirstId": 2302011,
+                "skillFourthId": 0,
+                "skillSecondId": 2302021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012303": {
+            "1": {
+                "heroModelId": 12012303,
+                "normalAttacckId": 2303001,
+                "skillFirstId": 2303011,
+                "skillFourthId": 0,
+                "skillSecondId": 2303021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012304": {
+            "1": {
+                "heroModelId": 12012304,
+                "normalAttacckId": 2304001,
+                "skillFirstId": 2304011,
+                "skillFourthId": 0,
+                "skillSecondId": 2304021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012305": {
+            "1": {
+                "heroModelId": 12012305,
+                "normalAttacckId": 2305001,
+                "skillFirstId": 2305011,
+                "skillFourthId": 0,
+                "skillSecondId": 2305021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12012401": {
+            "1": {
+                "heroModelId": 12012401,
+                "normalAttacckId": 2401001,
+                "skillFirstId": 2401011,
+                "skillFourthId": 0,
+                "skillSecondId": 2401021,
+                "skillThirdId": 2401031,
+                "star": 1
+            }
+        },
+        "12012402": {
+            "1": {
+                "heroModelId": 12012402,
+                "normalAttacckId": 2402001,
+                "skillFirstId": 2402011,
+                "skillFourthId": 0,
+                "skillSecondId": 2402021,
+                "skillThirdId": 2402031,
+                "star": 1
+            }
+        },
+        "12012403": {
+            "1": {
+                "heroModelId": 12012403,
+                "normalAttacckId": 2403001,
+                "skillFirstId": 2403011,
+                "skillFourthId": 0,
+                "skillSecondId": 2403021,
+                "skillThirdId": 2403031,
+                "star": 1
+            }
+        },
+        "12012404": {
+            "1": {
+                "heroModelId": 12012404,
+                "normalAttacckId": 2404001,
+                "skillFirstId": 2404011,
+                "skillFourthId": 0,
+                "skillSecondId": 2404021,
+                "skillThirdId": 2404031,
+                "star": 1
+            }
+        },
+        "12012405": {
+            "1": {
+                "heroModelId": 12012405,
+                "normalAttacckId": 2405001,
+                "skillFirstId": 2405011,
+                "skillFourthId": 0,
+                "skillSecondId": 2405021,
+                "skillThirdId": 2405031,
+                "star": 1
+            }
+        },
+        "12012501": {
+            "1": {
+                "heroModelId": 12012501,
+                "normalAttacckId": 2501001,
+                "skillFirstId": 2501011,
+                "skillFourthId": 2501041,
+                "skillSecondId": 2501021,
+                "skillThirdId": 2501031,
+                "star": 1
+            }
+        },
+        "12012502": {
+            "1": {
+                "heroModelId": 12012502,
+                "normalAttacckId": 2502001,
+                "skillFirstId": 2502011,
+                "skillFourthId": 2502041,
+                "skillSecondId": 2502021,
+                "skillThirdId": 2502031,
+                "star": 1
+            }
+        },
+        "12012503": {
+            "1": {
+                "heroModelId": 12012503,
+                "normalAttacckId": 2503001,
+                "skillFirstId": 2503011,
+                "skillFourthId": 0,
+                "skillSecondId": 2503021,
+                "skillThirdId": 2503031,
+                "star": 1
+            }
+        },
+        "12012504": {
+            "1": {
+                "heroModelId": 12012504,
+                "normalAttacckId": 2504001,
+                "skillFirstId": 2504011,
+                "skillFourthId": 2504041,
+                "skillSecondId": 2504021,
+                "skillThirdId": 2504031,
+                "star": 1
+            }
+        },
+        "12012505": {
+            "1": {
+                "heroModelId": 12012505,
+                "normalAttacckId": 2505001,
+                "skillFirstId": 2505011,
+                "skillFourthId": 2505041,
+                "skillSecondId": 2505021,
+                "skillThirdId": 2505031,
+                "star": 1
+            }
+        },
+        "12012506": {
+            "1": {
+                "heroModelId": 12012506,
+                "normalAttacckId": 2506001,
+                "skillFirstId": 2506011,
+                "skillFourthId": 2506041,
+                "skillSecondId": 2506021,
+                "skillThirdId": 2506031,
+                "star": 1
+            }
+        },
+        "12012507": {
+            "1": {
+                "heroModelId": 12012507,
+                "normalAttacckId": 2507001,
+                "skillFirstId": 2507011,
+                "skillFourthId": 2507041,
+                "skillSecondId": 2507021,
+                "skillThirdId": 2507031,
+                "star": 1
+            }
+        },
+        "12012508": {
+            "1": {
+                "heroModelId": 12012508,
+                "normalAttacckId": 2508001,
+                "skillFirstId": 2508011,
+                "skillFourthId": 2508041,
+                "skillSecondId": 2508021,
+                "skillThirdId": 2508031,
+                "star": 1
+            }
+        },
+        "12012509": {
+            "1": {
+                "heroModelId": 12012509,
+                "normalAttacckId": 2509001,
+                "skillFirstId": 2509011,
+                "skillFourthId": 2509041,
+                "skillSecondId": 2509021,
+                "skillThirdId": 2509031,
+                "star": 1
+            }
+        },
+        "12012510": {
+            "1": {
+                "heroModelId": 12012510,
+                "normalAttacckId": 2510001,
+                "skillFirstId": 2510011,
+                "skillFourthId": 2510041,
+                "skillSecondId": 2510021,
+                "skillThirdId": 2510031,
+                "star": 1
+            }
+        },
+        "12012511": {
+            "1": {
+                "heroModelId": 12012511,
+                "normalAttacckId": 2511001,
+                "skillFirstId": 2511011,
+                "skillFourthId": 2511041,
+                "skillSecondId": 2511021,
+                "skillThirdId": 2511031,
+                "star": 1
+            }
+        },
+        "12012599": {
+            "1": {
+                "heroModelId": 12012599,
+                "normalAttacckId": 2599001,
+                "skillFirstId": 2599011,
+                "skillFourthId": 2599041,
+                "skillSecondId": 2599021,
+                "skillThirdId": 2599031,
+                "star": 1
+            }
+        },
+        "12013101": {
+            "1": {
+                "heroModelId": 12013101,
+                "normalAttacckId": 3101001,
+                "skillFirstId": 3101011,
+                "skillFourthId": 0,
+                "skillSecondId": 0,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013201": {
+            "1": {
+                "heroModelId": 12013201,
+                "normalAttacckId": 3201001,
+                "skillFirstId": 3201011,
+                "skillFourthId": 0,
+                "skillSecondId": 3201021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013202": {
+            "1": {
+                "heroModelId": 12013202,
+                "normalAttacckId": 3202001,
+                "skillFirstId": 3202011,
+                "skillFourthId": 0,
+                "skillSecondId": 3202021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013301": {
+            "1": {
+                "heroModelId": 12013301,
+                "normalAttacckId": 3301001,
+                "skillFirstId": 3301011,
+                "skillFourthId": 0,
+                "skillSecondId": 3301021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013302": {
+            "1": {
+                "heroModelId": 12013302,
+                "normalAttacckId": 3302001,
+                "skillFirstId": 3302011,
+                "skillFourthId": 0,
+                "skillSecondId": 3302021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013303": {
+            "1": {
+                "heroModelId": 12013303,
+                "normalAttacckId": 3303001,
+                "skillFirstId": 3303011,
+                "skillFourthId": 0,
+                "skillSecondId": 3303021,
+                "skillThirdId": 3303031,
+                "star": 1
+            }
+        },
+        "12013304": {
+            "1": {
+                "heroModelId": 12013304,
+                "normalAttacckId": 3304001,
+                "skillFirstId": 3304011,
+                "skillFourthId": 0,
+                "skillSecondId": 3304021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013305": {
+            "1": {
+                "heroModelId": 12013305,
+                "normalAttacckId": 3305001,
+                "skillFirstId": 3305011,
+                "skillFourthId": 0,
+                "skillSecondId": 3305021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12013401": {
+            "1": {
+                "heroModelId": 12013401,
+                "normalAttacckId": 3401001,
+                "skillFirstId": 3401011,
+                "skillFourthId": 0,
+                "skillSecondId": 3401021,
+                "skillThirdId": 3401031,
+                "star": 1
+            }
+        },
+        "12013402": {
+            "1": {
+                "heroModelId": 12013402,
+                "normalAttacckId": 3402001,
+                "skillFirstId": 3402011,
+                "skillFourthId": 0,
+                "skillSecondId": 3402021,
+                "skillThirdId": 3402031,
+                "star": 1
+            }
+        },
+        "12013403": {
+            "1": {
+                "heroModelId": 12013403,
+                "normalAttacckId": 3403001,
+                "skillFirstId": 3403011,
+                "skillFourthId": 0,
+                "skillSecondId": 3403021,
+                "skillThirdId": 3403031,
+                "star": 1
+            }
+        },
+        "12013404": {
+            "1": {
+                "heroModelId": 12013404,
+                "normalAttacckId": 3404001,
+                "skillFirstId": 3404011,
+                "skillFourthId": 0,
+                "skillSecondId": 3404021,
+                "skillThirdId": 3404031,
+                "star": 1
+            }
+        },
+        "12013405": {
+            "1": {
+                "heroModelId": 12013405,
+                "normalAttacckId": 3405001,
+                "skillFirstId": 3405011,
+                "skillFourthId": 0,
+                "skillSecondId": 3405021,
+                "skillThirdId": 3405031,
+                "star": 1
+            }
+        },
+        "12013501": {
+            "1": {
+                "heroModelId": 12013501,
+                "normalAttacckId": 3501001,
+                "skillFirstId": 3501011,
+                "skillFourthId": 3501041,
+                "skillSecondId": 3501021,
+                "skillThirdId": 3501031,
+                "star": 1
+            }
+        },
+        "12013502": {
+            "1": {
+                "heroModelId": 12013502,
+                "normalAttacckId": 3502001,
+                "skillFirstId": 3502011,
+                "skillFourthId": 3502041,
+                "skillSecondId": 3502021,
+                "skillThirdId": 3502031,
+                "star": 1
+            }
+        },
+        "12013503": {
+            "1": {
+                "heroModelId": 12013503,
+                "normalAttacckId": 3503001,
+                "skillFirstId": 3503011,
+                "skillFourthId": 0,
+                "skillSecondId": 3503021,
+                "skillThirdId": 3503031,
+                "star": 1
+            }
+        },
+        "12013504": {
+            "1": {
+                "heroModelId": 12013504,
+                "normalAttacckId": 3504001,
+                "skillFirstId": 3504011,
+                "skillFourthId": 3504041,
+                "skillSecondId": 3504021,
+                "skillThirdId": 3504031,
+                "star": 1
+            }
+        },
+        "12013505": {
+            "1": {
+                "heroModelId": 12013505,
+                "normalAttacckId": 3505001,
+                "skillFirstId": 3505011,
+                "skillFourthId": 0,
+                "skillSecondId": 3505021,
+                "skillThirdId": 3505031,
+                "star": 1
+            }
+        },
+        "12013506": {
+            "1": {
+                "heroModelId": 12013506,
+                "normalAttacckId": 3506001,
+                "skillFirstId": 3506011,
+                "skillFourthId": 3506041,
+                "skillSecondId": 3506021,
+                "skillThirdId": 3506031,
+                "star": 1
+            }
+        },
+        "12013507": {
+            "1": {
+                "heroModelId": 12013507,
+                "normalAttacckId": 3507001,
+                "skillFirstId": 3507011,
+                "skillFourthId": 3507041,
+                "skillSecondId": 3507021,
+                "skillThirdId": 3507031,
+                "star": 1
+            }
+        },
+        "12013508": {
+            "1": {
+                "heroModelId": 12013508,
+                "normalAttacckId": 3508001,
+                "skillFirstId": 3508011,
+                "skillFourthId": 3508041,
+                "skillSecondId": 3508021,
+                "skillThirdId": 3508031,
+                "star": 1
+            }
+        },
+        "12013509": {
+            "1": {
+                "heroModelId": 12013509,
+                "normalAttacckId": 3509001,
+                "skillFirstId": 3509011,
+                "skillFourthId": 3509041,
+                "skillSecondId": 3509021,
+                "skillThirdId": 3509031,
+                "star": 1
+            }
+        },
+        "12013510": {
+            "1": {
+                "heroModelId": 12013510,
+                "normalAttacckId": 3510001,
+                "skillFirstId": 3510011,
+                "skillFourthId": 3510041,
+                "skillSecondId": 3510021,
+                "skillThirdId": 3510031,
+                "star": 1
+            }
+        },
+        "12013511": {
+            "1": {
+                "heroModelId": 12013511,
+                "normalAttacckId": 3511001,
+                "skillFirstId": 3511011,
+                "skillFourthId": 3511041,
+                "skillSecondId": 3511021,
+                "skillThirdId": 3511031,
+                "star": 1
+            }
+        },
+        "12013599": {
+            "1": {
+                "heroModelId": 12013599,
+                "normalAttacckId": 3599001,
+                "skillFirstId": 3599011,
+                "skillFourthId": 3599041,
+                "skillSecondId": 3599021,
+                "skillThirdId": 3599031,
+                "star": 1
+            }
+        },
+        "12014301": {
+            "1": {
+                "heroModelId": 12014301,
+                "normalAttacckId": 4301001,
+                "skillFirstId": 4301011,
+                "skillFourthId": 0,
+                "skillSecondId": 4301021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12014401": {
+            "1": {
+                "heroModelId": 12014401,
+                "normalAttacckId": 4401001,
+                "skillFirstId": 4401011,
+                "skillFourthId": 0,
+                "skillSecondId": 4401021,
+                "skillThirdId": 4401031,
+                "star": 1
+            }
+        },
+        "12014402": {
+            "1": {
+                "heroModelId": 12014402,
+                "normalAttacckId": 4402001,
+                "skillFirstId": 4402011,
+                "skillFourthId": 0,
+                "skillSecondId": 4402021,
+                "skillThirdId": 4402031,
+                "star": 1
+            }
+        },
+        "12014403": {
+            "1": {
+                "heroModelId": 12014403,
+                "normalAttacckId": 4403001,
+                "skillFirstId": 4403011,
+                "skillFourthId": 0,
+                "skillSecondId": 4403021,
+                "skillThirdId": 4403031,
+                "star": 1
+            }
+        },
+        "12014404": {
+            "1": {
+                "heroModelId": 12014404,
+                "normalAttacckId": 4404001,
+                "skillFirstId": 4404011,
+                "skillFourthId": 0,
+                "skillSecondId": 4404021,
+                "skillThirdId": 4404031,
+                "star": 1
+            }
+        },
+        "12014501": {
+            "1": {
+                "heroModelId": 12014501,
+                "normalAttacckId": 4501001,
+                "skillFirstId": 4501011,
+                "skillFourthId": 0,
+                "skillSecondId": 4501021,
+                "skillThirdId": 4501031,
+                "star": 1
+            }
+        },
+        "12014502": {
+            "1": {
+                "heroModelId": 12014502,
+                "normalAttacckId": 4502001,
+                "skillFirstId": 4502011,
+                "skillFourthId": 4502041,
+                "skillSecondId": 4502021,
+                "skillThirdId": 4502031,
+                "star": 1
+            }
+        },
+        "12014503": {
+            "1": {
+                "heroModelId": 12014503,
+                "normalAttacckId": 4503001,
+                "skillFirstId": 4503011,
+                "skillFourthId": 4503041,
+                "skillSecondId": 4503021,
+                "skillThirdId": 4503031,
+                "star": 1
+            }
+        },
+        "12014504": {
+            "1": {
+                "heroModelId": 12014504,
+                "normalAttacckId": 4504001,
+                "skillFirstId": 4504011,
+                "skillFourthId": 4504041,
+                "skillSecondId": 4504021,
+                "skillThirdId": 4504031,
+                "star": 1
+            }
+        },
+        "12014505": {
+            "1": {
+                "heroModelId": 12014505,
+                "normalAttacckId": 4505001,
+                "skillFirstId": 4505011,
+                "skillFourthId": 4505041,
+                "skillSecondId": 4505021,
+                "skillThirdId": 4505031,
+                "star": 1
+            }
+        },
+        "12014506": {
+            "1": {
+                "heroModelId": 12014506,
+                "normalAttacckId": 4506001,
+                "skillFirstId": 4506011,
+                "skillFourthId": 4506041,
+                "skillSecondId": 4506021,
+                "skillThirdId": 4506031,
+                "star": 1
+            }
+        },
+        "12014507": {
+            "1": {
+                "heroModelId": 12014507,
+                "normalAttacckId": 4507001,
+                "skillFirstId": 4507011,
+                "skillFourthId": 4507041,
+                "skillSecondId": 4507021,
+                "skillThirdId": 4507031,
+                "star": 1
+            }
+        },
+        "12014508": {
+            "1": {
+                "heroModelId": 12014508,
+                "normalAttacckId": 4508001,
+                "skillFirstId": 4508011,
+                "skillFourthId": 4508041,
+                "skillSecondId": 4508021,
+                "skillThirdId": 4508031,
+                "star": 1
+            }
+        },
+        "12014509": {
+            "1": {
+                "heroModelId": 12014509,
+                "normalAttacckId": 4509001,
+                "skillFirstId": 4509011,
+                "skillFourthId": 4509041,
+                "skillSecondId": 4509021,
+                "skillThirdId": 4509031,
+                "star": 1
+            }
+        },
+        "12014510": {
+            "1": {
+                "heroModelId": 12014510,
+                "normalAttacckId": 4510001,
+                "skillFirstId": 4510011,
+                "skillFourthId": 4510041,
+                "skillSecondId": 4510021,
+                "skillThirdId": 4510031,
+                "star": 1
+            }
+        },
+        "12014599": {
+            "1": {
+                "heroModelId": 12014599,
+                "normalAttacckId": 4599001,
+                "skillFirstId": 4599011,
+                "skillFourthId": 4599041,
+                "skillSecondId": 4599021,
+                "skillThirdId": 4599031,
+                "star": 1
+            }
+        },
+        "12015301": {
+            "1": {
+                "heroModelId": 12015301,
+                "normalAttacckId": 5301001,
+                "skillFirstId": 5301011,
+                "skillFourthId": 0,
+                "skillSecondId": 5301021,
+                "skillThirdId": 0,
+                "star": 1
+            }
+        },
+        "12015401": {
+            "1": {
+                "heroModelId": 12015401,
+                "normalAttacckId": 5401001,
+                "skillFirstId": 5401011,
+                "skillFourthId": 0,
+                "skillSecondId": 5401021,
+                "skillThirdId": 5401031,
+                "star": 1
+            }
+        },
+        "12015402": {
+            "1": {
+                "heroModelId": 12015402,
+                "normalAttacckId": 5402001,
+                "skillFirstId": 5402011,
+                "skillFourthId": 0,
+                "skillSecondId": 5402021,
+                "skillThirdId": 5402031,
+                "star": 1
+            }
+        },
+        "12015403": {
+            "1": {
+                "heroModelId": 12015403,
+                "normalAttacckId": 5403001,
+                "skillFirstId": 5403011,
+                "skillFourthId": 0,
+                "skillSecondId": 5403021,
+                "skillThirdId": 5403031,
+                "star": 1
+            }
+        },
+        "12015404": {
+            "1": {
+                "heroModelId": 12015404,
+                "normalAttacckId": 5404001,
+                "skillFirstId": 5404011,
+                "skillFourthId": 0,
+                "skillSecondId": 5404021,
+                "skillThirdId": 5404031,
+                "star": 1
+            }
+        },
+        "12015501": {
+            "1": {
+                "heroModelId": 12015501,
+                "normalAttacckId": 5501001,
+                "skillFirstId": 5501011,
+                "skillFourthId": 0,
+                "skillSecondId": 5501021,
+                "skillThirdId": 5501031,
+                "star": 1
+            }
+        },
+        "12015502": {
+            "1": {
+                "heroModelId": 12015502,
+                "normalAttacckId": 5502001,
+                "skillFirstId": 5502011,
+                "skillFourthId": 5502041,
+                "skillSecondId": 5502021,
+                "skillThirdId": 5502031,
+                "star": 1
+            }
+        },
+        "12015503": {
+            "1": {
+                "heroModelId": 12015503,
+                "normalAttacckId": 5503001,
+                "skillFirstId": 5503011,
+                "skillFourthId": 5503041,
+                "skillSecondId": 5503021,
+                "skillThirdId": 5503031,
+                "star": 1
+            }
+        },
+        "12015504": {
+            "1": {
+                "heroModelId": 12015504,
+                "normalAttacckId": 5504001,
+                "skillFirstId": 5504011,
+                "skillFourthId": 5504041,
+                "skillSecondId": 5504021,
+                "skillThirdId": 5504031,
+                "star": 1
+            }
+        },
+        "12015505": {
+            "1": {
+                "heroModelId": 12015505,
+                "normalAttacckId": 5505001,
+                "skillFirstId": 5505011,
+                "skillFourthId": 5505041,
+                "skillSecondId": 5505021,
+                "skillThirdId": 5505031,
+                "star": 1
+            }
+        },
+        "12015506": {
+            "1": {
+                "heroModelId": 12015506,
+                "normalAttacckId": 5506001,
+                "skillFirstId": 5506011,
+                "skillFourthId": 5506041,
+                "skillSecondId": 5506021,
+                "skillThirdId": 5506031,
+                "star": 1
+            }
+        },
+        "12015507": {
+            "1": {
+                "heroModelId": 12015507,
+                "normalAttacckId": 5507001,
+                "skillFirstId": 5507011,
+                "skillFourthId": 5507041,
+                "skillSecondId": 5507021,
+                "skillThirdId": 5507031,
+                "star": 1
+            }
+        },
+        "12015508": {
+            "1": {
+                "heroModelId": 12015508,
+                "normalAttacckId": 5508001,
+                "skillFirstId": 5508011,
+                "skillFourthId": 5508041,
+                "skillSecondId": 5508021,
+                "skillThirdId": 5508031,
+                "star": 1
+            }
+        },
+        "12015509": {
+            "1": {
+                "heroModelId": 12015509,
+                "normalAttacckId": 5509001,
+                "skillFirstId": 5509011,
+                "skillFourthId": 5509041,
+                "skillSecondId": 5509021,
+                "skillThirdId": 5509031,
+                "star": 1
+            }
+        },
+        "12015510": {
+            "1": {
+                "heroModelId": 12015510,
+                "normalAttacckId": 5510001,
+                "skillFirstId": 5510011,
+                "skillFourthId": 5510041,
+                "skillSecondId": 5510021,
+                "skillThirdId": 5510031,
+                "star": 1
+            }
+        },
+        "12015511": {
+            "1": {
+                "heroModelId": 12015511,
+                "normalAttacckId": 5511001,
+                "skillFirstId": 5511011,
+                "skillFourthId": 5511041,
+                "skillSecondId": 5511021,
+                "skillThirdId": 5511031,
+                "star": 1
+            }
+        },
+        "12015599": {
+            "1": {
+                "heroModelId": 12015599,
+                "normalAttacckId": 5599001,
+                "skillFirstId": 5599011,
+                "skillFourthId": 5599041,
+                "skillSecondId": 5599021,
+                "skillThirdId": 5599031,
+                "star": 1
+            }
+        },
+        "12016001": {
+            "1": {
+                "heroModelId": 12016001,
+                "normalAttacckId": 6001001,
+                "skillFirstId": 6001011,
+                "skillFourthId": 6001041,
+                "skillSecondId": 6001021,
+                "skillThirdId": 6001031,
+                "star": 1
+            }
+        },
+        "12016002": {
+            "1": {
+                "heroModelId": 12016002,
+                "normalAttacckId": 6002001,
+                "skillFirstId": 6002011,
+                "skillFourthId": 6002041,
+                "skillSecondId": 6002021,
+                "skillThirdId": 6002031,
+                "star": 1
+            }
+        },
+        "12016003": {
+            "1": {
+                "heroModelId": 12016003,
+                "normalAttacckId": 6003001,
+                "skillFirstId": 6003011,
+                "skillFourthId": 6003041,
+                "skillSecondId": 6003021,
+                "skillThirdId": 6003031,
+                "star": 1
+            }
+        },
+        "12016004": {
+            "1": {
+                "heroModelId": 12016004,
+                "normalAttacckId": 6004001,
+                "skillFirstId": 6004011,
+                "skillFourthId": 6004041,
+                "skillSecondId": 6004021,
+                "skillThirdId": 6004031,
+                "star": 1
+            }
+        },
+        "12016005": {
+            "1": {
+                "heroModelId": 12016005,
+                "normalAttacckId": 6005001,
+                "skillFirstId": 6005011,
+                "skillFourthId": 6005041,
+                "skillSecondId": 6005021,
+                "skillThirdId": 6005031,
+                "star": 1
+            }
+        },
+        "12016599": {
+            "1": {
+                "heroModelId": 12016599,
+                "normalAttacckId": 6599001,
+                "skillFirstId": 6599011,
+                "skillFourthId": 6599041,
+                "skillSecondId": 6599021,
+                "skillThirdId": 6599031,
+                "star": 1
+            }
+        }
+    },
+    "items_count": 114,
+    "key": [
+        "heroModelId",
+        "star"
+    ],
+    "name": "HeroStarRelation"
+}

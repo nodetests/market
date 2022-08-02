@@ -1,0 +1,49 @@
+.contains{
+  width: 100%;
+  height: 100%;
+     .headerContain{
+       width: 100%;
+       height: 100px;
+       position: relative;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #04040f;
+     }
+     .mainContent{
+       width: 100%;
+       // width: calc(~"100% - 79px"); 
+       // width: e("calc(100% - 79px)");
+       min-height: calc(100vh - 100px);
+       position: relative;
+      
+     }
+ }
+ .contains :global(.ant-layout-header){
+   padding: 0 2rem 0 0;
+ }
+ 
+ @font-face {
+   font-family: "primaryText";
+   src: url('../asset//font/kos_ui.ttf');
+ }
+ 
+ @font-face {
+     font-family: 'iconfont';  /* Project id 3263928 */
+     src: url('//at.alicdn.com/t/font_3263928_3uyago7t04h.woff2?t=1647846459366') format('woff2'),
+          url('//at.alicdn.com/t/font_3263928_3uyago7t04h.woff?t=1647846459366') format('woff'),
+          url('//at.alicdn.com/t/font_3263928_3uyago7t04h.ttf?t=1647846459366') format('truetype');
+ }
+
+ @media screen and (max-width:1200px) {
+   .contains{
+     width: 100%;
+     height: 100vh;
+     font-family: "primaryText";
+     font-size: 1.3rem !important;
+   }
+   .contains :global(.ant-menu-item){
+     font-size: 1.3rem !important;
+   }
+    
+ }

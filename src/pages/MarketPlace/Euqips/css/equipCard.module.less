@@ -1,0 +1,356 @@
+.nftContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContion {
+    width: 1200px;
+    height: 100%;
+}
+
+
+.gridContain {
+    max-width: 1200px;
+    display: grid;
+    -webkit-display: grid;
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: auto;
+
+    @media screen and (min-width: 1800px) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1800px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (min-width: 200px) and (max-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.nftCard {
+    max-width: 260px;
+    max-height: 420px;
+    font-size: 0.5rem;
+    // border: 1px solid #07372d;
+    cursor: pointer;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .nftHeader {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        background-size: 50% 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .nftHeader:after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    .nftFooter {
+        min-height: 100px;
+    }
+  
+
+    .nftImg {
+        margin: 0;
+        padding: 0;
+
+        img {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .nftAttr_N {
+        width: 100%;
+        min-height: 70px;
+        background: url('../../../../asset/img/markPlace/frame_n.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+    }
+
+    .nftAttr_R {
+        width: 100%;
+        min-height: 70px;
+        background: url('../../../../asset/img/markPlace/frame_r.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+    }
+
+    .nftAttr_SR {
+        width: 100%;
+        min-height: 70px;
+        background: url('../../../../asset/img/markPlace/frame_sr.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+    }
+
+    .nftAttr_SSR {
+        width: 100%;
+        min-height: 70px;
+        background: url('../../../../asset/img/markPlace/frame_ssr.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+    }
+
+    .nftName {
+        width: 100%;
+        padding-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+
+        .nftNameContent_N {
+            width: 60%;
+            border-image:url('../../../../asset/img/markPlace/frame_green.png');
+            border-image-slice: 0 9 0 9 fill;
+            border-image-width: 0 9px 0 9px;
+            // border-image-repeat: repeat;
+            color: #ccffe5;
+
+            span {
+                display: inline-block;
+                margin-left: 0.5rem;
+            }
+        }
+
+        .nftNameContent_R {
+            width: 60%;
+            border-image:url('../../../../asset/img/markPlace/frame_bule.png');
+            border-image-slice: 0 9 0 9 fill;
+            border-image-width: 0 9px 0 9px;
+            // border-image-repeat: repeat;
+            color: #cfe6ff;
+
+            span {
+                display: inline-block;
+                margin-left: 0.5rem;
+            }
+        }
+
+        .nftNameContent_SR {
+            width: 60%;
+            border-image:url('../../../../asset/img/markPlace/frame_purple.png');
+            border-image-slice: 0 9 0 9 fill;
+            border-image-width: 0 9px 0 9px;
+            // border-image-repeat: repeat;
+            color: #e5ccff;
+
+            span {
+                display: inline-block;
+                margin-left: 0.5rem;
+            }
+        }
+
+        .nftNameContent_SSR {
+            width: 60%;
+            border-image:url('../../../../asset/img/markPlace/frame_orange.png');
+            border-image-slice: 0 9 0 9 fill;
+            border-image-width: 0 9px 0 9px;
+            // border-image-repeat: repeat;
+            color: #fffdcf;
+
+            span {
+                display: inline-block;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .nftAttribute {
+        width: 100%;
+        font-size: 0.5rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 6px;
+
+        .nftAttributeContent {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .nftAttributeItem {
+            width: 50%;
+            height: 1rem;
+            margin-top: 0.5rem;
+            white-space: nowrap;
+
+            img {
+                max-width: 30%;
+                max-height: 1rem;
+                margin-left: 5%;
+            }
+        }
+    }
+
+    // 如果是商城
+    .nftCardBottom {
+        width: 100%;
+        min-height: 40px;
+        background: url('../../../../asset/img/markPlace/price_frame.png') no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        z-index: 999999;
+        overflow: hidden;
+    }
+    .nftPrice {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        margin-top: 12px;
+      
+        .nftPriceContent {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            img {
+                max-width: 30%;
+                max-height: 16px;
+            }
+
+            span {
+                display: inline-block;
+                margin-left: 0.2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    max-width: 1200px;
+}
+
+.sellContian :global(.ant-modal-body) {
+    padding: 0;
+}
+.sellContian{
+    min-height: 500px;
+}
+.myNft {
+    font-family: 'primaryText';
+    // height: 40rem;
+    background: #151742;
+    font-size: 1rem;
+
+    .myNftTop {
+        height: 4rem;
+        background: url('../../../../asset/img/markPlace/frame_01.png') no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myNftBottom {
+        width: 100%;
+        padding: 1rem;
+
+        .myNftBottomContent {
+            width: 100%;
+            height: 100%;
+            border: 1px solid rgba(133, 182, 255, 0.2);
+            display: flex;
+            justify-content: flex-start;
+        }
+
+    }
+
+    .myNftLeft {
+        width: 50%;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+    .myNftLeft>div{
+        width: 100%;
+        // height: 100%;
+    }
+
+    .myNftRight {
+        width: 50%;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .myNftRightContain {
+            width: 100%;
+            height: 15rem;
+
+            .text {
+                width: 100%;
+                font-size: 1rem;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .price {
+                height: 4rem;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #101329;
+
+                img {
+                    max-height: 1.5rem;
+                    max-width: 1.5rem;
+                }
+                span{
+                    display: inline-block;
+                    margin-left: 12px;
+                }
+            }
+
+            .sureSell {
+                width: 100%;
+                font-size: 1.5rem;
+                color: #5a2a0a;
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                margin-top: 2rem;
+
+                div {
+                    width: 10rem;
+                    height: 3rem;
+                    text-align: center;
+                    line-height: 3rem;
+                    background: #f6d84b;
+                }
+            }
+        }
+    }
+}
